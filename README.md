@@ -56,6 +56,19 @@ cd canary_desktop
 /home/shantanu/flutter/bin/flutter analyze
 /home/shantanu/flutter/bin/flutter test
 ```
+# Canary Desktop v0.1.0
+
+First public Linux desktop prototype of Canary.
+
+## Install
+
+Download `canary-linux-x64-v0.1.0.tar.gz`, then:
+
+```sh
+tar -xzf canary-linux-x64-v0.1.0.tar.gz
+cd bundle
+./canary_desktop
+```
 
 ## Legal And Content Responsibility
 
