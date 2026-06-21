@@ -1,0 +1,51 @@
+name: canary_desktop
+description: "Canary is a private, local-first desktop music library and player."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^10.3.3
+  local_notifier: ^0.1.6
+  media_kit: ^1.2.6
+  media_kit_libs_audio: ^1.0.7
+  window_manager: ^0.5.1
+  palette_generator: ^0.3.3+7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/canary_logo.png
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 100
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 200
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 300
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 400
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 500
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 600
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 700
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 800
+        - asset: assets/fonts/dm_sans/DMSans-Variable.ttf
+          weight: 900
+        - asset: assets/fonts/dm_sans/DMSans-Italic-Variable.ttf
+          style: italic

@@ -1,0 +1,30 @@
+# Private planning notes
+CANARY_SPEC*.md
+
+# Local screenshots / reference captures
+/2026-*.png
+
+# Old experimental scaffolds not part of v0.1
+/android/
+/desktop/
+/protocol/
+
+# Flutter / Dart / build output
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+
+# IDE / local machine files
+**/.idea/
+*.iml
+*.ipr
+*.iws
+*.log
+.DS_Store
+
+# Android local machine config
+**/android/local.properties
