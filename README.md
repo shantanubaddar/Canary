@@ -64,3 +64,7 @@ Canary is intended for audio files that the user owns or is authorized to use. C
 Metadata and artwork lookup exists to help users organize their own libraries. Album art and artist images may be copyrighted by third parties, so Canary stores fetched artwork locally for personal library use and lets users replace or remove it.
 
 See [LEGAL_NOTICE.md](LEGAL_NOTICE.md) for details.
+
+## License
+
+Canary is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
