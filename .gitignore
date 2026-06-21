@@ -10,6 +10,7 @@ CANARY_SPEC*.md
 /protocol/
 
 # Flutter / Dart / build output
+/dist/
 **/.dart_tool/
 **/.flutter-plugins
 **/.flutter-plugins-dependencies
